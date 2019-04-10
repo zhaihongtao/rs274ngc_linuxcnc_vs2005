@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rs274ngc", "rs274ngc.vcproj", "{D08D00F1-7A08-4DC7-BF06-1A86C5F460CD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rs274test", "..\rs274test\rs274test.vcproj", "{660C4A5F-F4B1-471B-B53B-35388B73A7B5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D08D00F1-7A08-4DC7-BF06-1A86C5F460CD} = {D08D00F1-7A08-4DC7-BF06-1A86C5F460CD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D08D00F1-7A08-4DC7-BF06-1A86C5F460CD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D08D00F1-7A08-4DC7-BF06-1A86C5F460CD}.Debug|Win32.Build.0 = Debug|Win32
+		{D08D00F1-7A08-4DC7-BF06-1A86C5F460CD}.Release|Win32.ActiveCfg = Release|Win32
+		{D08D00F1-7A08-4DC7-BF06-1A86C5F460CD}.Release|Win32.Build.0 = Release|Win32
+		{660C4A5F-F4B1-471B-B53B-35388B73A7B5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{660C4A5F-F4B1-471B-B53B-35388B73A7B5}.Debug|Win32.Build.0 = Debug|Win32
+		{660C4A5F-F4B1-471B-B53B-35388B73A7B5}.Release|Win32.ActiveCfg = Release|Win32
+		{660C4A5F-F4B1-471B-B53B-35388B73A7B5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
